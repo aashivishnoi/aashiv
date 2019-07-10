@@ -1,0 +1,54 @@
+body{
+  background-color:LightBlue  ;
+  color: black ;
+  font-family: Arial  ;
+  font-size: 14px
+}
+
+h1{
+  color: gray ;
+  font-family: Verdana ;
+  font-size: 25px
+}
+
+h2{
+  color: gray ;
+  font-family: Verdana ;
+  font-size: 25px
+}
+
+.aboutme{
+  color: gray ;
+  font-family: Verdana ;
+  font-size: 20px
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+
+.decapic{
+  display: flex;
+  justify-content: center;
+}
+.hosapic{
+  display: flex;
+  justify-content: center;
+}
+.pics{
+  display: flex;
+  justify-content: center;
+}
+.unicef{
+  display: flex;
+  justify-content: center;
+}
+
+.left{
+  display: flex;
+  justify-content: left;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
